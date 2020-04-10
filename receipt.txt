@@ -1,0 +1,26 @@
+class Receipt{
+	List<Item> recept;
+	dobule smetkaCena;
+	
+
+	Receipt(List<Item> list){
+		this.smetkaCena=0.0;
+		for (item in list){
+			smetkaCena+=item.getPrice();
+		}
+	}
+
+	void addItem(Item it){
+	
+		recept.add(it);
+		smetkaCena += it.getPrice();
+	
+	}
+
+	void removeItem(Item it){
+		item.remove(it);
+		smetkaCena -= it.getPrice;
+	}
+
+
+}
