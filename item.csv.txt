@@ -1,5 +1,7 @@
 1 item1 100
 2 item2 100
 3 item3 100
-4 item4 100
+4 item4 101
 5 item5 100
+6 item6 100
+7 item7 100
